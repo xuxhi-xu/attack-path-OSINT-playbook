@@ -2,7 +2,6 @@
 
 > A practitioner's field guide to Open Source Intelligence — method-driven, analyst-focused, tools come last.
 
-**Author:** Rishi  
 **Focus:** Attack Surface Management, Corporate Recon, Identity Enumeration  
 **Framing:** Every offensive technique paired with its defensive detection equivalent
 
