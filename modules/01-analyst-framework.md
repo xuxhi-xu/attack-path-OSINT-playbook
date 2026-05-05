@@ -1,7 +1,5 @@
 # Analyst Framework
 
----
-
 ## 1. Analyst Mindset
 
 Before touching a tool or a search box, ask four questions:
