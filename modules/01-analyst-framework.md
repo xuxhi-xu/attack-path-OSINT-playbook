@@ -1,7 +1,5 @@
 # Analyst Framework
 
-> This is the brain of the playbook. Every execution layer that follows operates inside this framework. Read this first. Return to it when you get lost.
-
 ---
 
 ## 1. Analyst Mindset
