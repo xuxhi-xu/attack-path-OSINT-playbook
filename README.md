@@ -1,6 +1,6 @@
 # Attack Path OSINT Playbook
 
-I started writing this after finding exposed infrastructure on an institution's network using nothing but Google.
+I started writing this after finding exposed infrastructure on an institution's network using nothing but Google and some security testing.
 
 No exploits. No tools. Just search operators and the right questions.
 
