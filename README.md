@@ -69,10 +69,6 @@ modules/
 | 13 | [Tool Reference](./modules/13-tool-reference.md) | Automated Verification |
 | 14 | [Case Study](./modules/14-case-study.md) | Full Chain Walkthrough |
 
----
-
----
-
 ## The pivot chain that started this
 
 ```
@@ -85,8 +81,6 @@ Phone number
 ```
 
 Each step is passive. Each step uses only public data. That chain from a phone number to a full identity picture is what made me realize most people have no idea what their own exposure surface looks like.
-
----
 
 ---
 
