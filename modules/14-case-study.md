@@ -8,7 +8,6 @@
 - **Target type:** Educational institution 
 - **Method:** Passive OSINT and Google dorking and basic security testing
 - **Authorization:** Conducted as part of academic security research with responsible disclosure intent
-- **Legal framework:** India IT Act 2000, DPDP Act 2023
 - **Exploitation:** None — findings documented and reported only
 
 ---
