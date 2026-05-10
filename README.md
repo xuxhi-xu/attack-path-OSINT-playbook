@@ -1,39 +1,29 @@
 # OSINT Playbook
 
-> A practitioner's field guide to Open Source Intelligence — method-driven, analyst-focused, tools come last.
-
-**Focus:** Attack Surface Management, Corporate Recon, Identity Enumeration  
-**Framing:** Every offensive technique paired with its defensive detection equivalent
-
----
-
-## Philosophy
-
-Most OSINT guides hand you a tool list and call it a framework.
-
-This is different.
-
-Before touching a single tool or search query, an analyst needs to know:
-
-- What am I looking for, and why would it exist publicly?
-- How do I classify signal vs. noise?
-- When do I go deeper? When do I pivot? When do I stop?
-
-**Tools come last. Thinking comes first.**
-
-Every section in this playbook is an execution layer within a structured analyst framework — built around attack paths, pivot chains, and decision logic. Not checklists.
+I started writing this after finding exposed infrastructure on my own college network using nothing but Google.
+No exploits. No tools. Just search operators and the right questions.
+That made me think — if I could map this much from a browser tab, what does a real attacker see before they ever touch a target? This playbook is my attempt to answer that properly.
 
 ---
 
-## Start Here
+What this is
+A field guide built around one idea: OSINT is not a tool problem, it's a thinking problem.
+Most guides hand you a list of commands and call it a methodology. This one works the other way — every section starts with the analyst question, builds the attack path, then references tools at the end as execution aids.
+Every offensive technique is paired with its defensive equivalent. Because if you understand how something is found, you understand how to stop it from being found.
 
-**→ [01 — Analyst Framework](./modules/01-analyst-framework.md)**
+Why I built it this way
+I've gone through enough OSINT resources that start with "install theHarvester" and end with a wall of dork queries. They're fine as references. They don't teach you to think.
+The questions that actually matter during an investigation are:
 
-This is the brain of the playbook. Read it before anything else. Every module that follows operates inside this framework.
+What am I looking for, and why would it exist publicly?
+Is this signal or noise?
+When do I go deeper? When do I pivot? When do I stop?
 
-> Techniques without a framework produce noise.
+Those questions don't appear in most guides. They're in every section of this one.
 
 ---
+
+Start with 01 — Analyst Framework. Every module that follows operates inside that framework. Techniques without a framework produce noise.
 
 ## Structure
 
@@ -100,12 +90,9 @@ Phone → Legal Name (UPI) → LinkedIn → Email Pattern
 
 ---
 
-## Legal and Ethical Boundaries
-
-- All techniques operate on **publicly available data only**
-- Active exploitation is **out of scope** — this is passive recon methodology
-- Always obtain **written authorization** before running OSINT against an organization
-- Responsible disclosure is mandatory when findings affect real systems
-- Governed by applicable law — **India: IT Act 2000, DPDP Act 2023**
+A few things worth mentioning
+It's India-grounded. UPI name lookups, Truecaller chains, JustDial and IndiaMart dorks, DPDP Act 2023 framing. Not a recycled Western playbook.
+The case study is real. Found exposed infrastructure on my college network through passive recon. Documented it, reported it responsibly, wrote it up as a full walkthrough. It's in module 14.
+Blue team is not an afterthought. Every module has a detection and hardening table. I work in MDR context so the defensive side matters as much as the offensive side to me.
 
 
