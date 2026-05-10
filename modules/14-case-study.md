@@ -154,17 +154,6 @@ level: high
 
 ---
 
-## Disclosure Timeline
-
-| Date | Action |
-|------|--------|
-| Discovery | Passive recon identified findings |
-| T+1 day | Findings documented with evidence |
-| T+2 days | Responsible disclosure report submitted to institution |
-| T+30 days | Public write-up released (post-disclosure window) |
-
----
-
 ## Key Takeaway
 
 Every finding in this case study was discovered using Google search operators and a browser. No exploit framework, no scanning tool, no authentication bypass. The attack surface was created by misconfiguration and lack of periodic self-audit — not by a sophisticated attacker.
