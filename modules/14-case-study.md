@@ -1,13 +1,12 @@
 # Case Study — Responsible Disclosure: Educational Institution Infrastructure
 
-> Real-world passive recon exercise conducted against a university's public-facing infrastructure. All findings reported responsibly to the institution before public disclosure. No active exploitation was performed at any stage.
-
+> I found this during a passive recon exercise in a university. No exploits, no tools beyond a browser. Just dorks and the right questions. Reported it responsibly. This is the full walkthrough.
 ---
 
 ## Scope and Authorization
 
-- **Target type:** Educational institution (anonymized)
-- **Method:** Passive OSINT and Google dorking only
+- **Target type:** Educational institution 
+- **Method:** Passive OSINT and Google dorking and basic security testing
 - **Authorization:** Conducted as part of academic security research with responsible disclosure intent
 - **Legal framework:** India IT Act 2000, DPDP Act 2023
 - **Exploitation:** None — findings documented and reported only
