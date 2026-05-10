@@ -1,23 +1,32 @@
-# OSINT Playbook
+# Attack Path OSINT Playbook
 
 I started writing this after finding exposed infrastructure on my own college network using nothing but Google.
+
 No exploits. No tools. Just search operators and the right questions.
+
 That made me think — if I could map this much from a browser tab, what does a real attacker see before they ever touch a target? This playbook is my attempt to answer that properly.
 
 ---
 
-What this is
-A field guide built around one idea: OSINT is not a tool problem, it's a thinking problem.
+## What this is
+
+A field guide built around one idea: **OSINT is not a tool problem, it's a thinking problem.**
+
 Most guides hand you a list of commands and call it a methodology. This one works the other way — every section starts with the analyst question, builds the attack path, then references tools at the end as execution aids.
+
 Every offensive technique is paired with its defensive equivalent. Because if you understand how something is found, you understand how to stop it from being found.
 
-Why I built it this way
+---
+
+## Why I built it this way
+
 I've gone through enough OSINT resources that start with "install theHarvester" and end with a wall of dork queries. They're fine as references. They don't teach you to think.
+
 The questions that actually matter during an investigation are:
 
-What am I looking for, and why would it exist publicly?
-Is this signal or noise?
-When do I go deeper? When do I pivot? When do I stop?
+- What am I looking for, and why would it exist publicly?
+- Is this signal or noise?
+- When do I go deeper? When do I pivot? When do I stop?
 
 Those questions don't appear in most guides. They're in every section of this one.
 
@@ -68,31 +77,35 @@ modules/
 
 ---
 
-## What Makes This Different
+---
 
-**Method-driven, not tool-driven.**  
-Every section leads with the analyst workflow and attack path model. Tools are referenced at the end of each section as execution aids — not the starting point.
-
-**Blue team paired with every offensive technique.**  
-Each module includes a detection and hardening table. Understanding how to find things is only half the picture.
-
-**India-specific grounding.**  
-UPI name lookup chains, Truecaller, JustDial/Indiamart dorks, and DPDP Act 2023 framing — not just a recycled Western playbook.
-
-**Pivot-chain focused.**  
-Every section is built around the question: *what does this data connect to next?*
+## The pivot chain that started this
 
 ```
-Phone → Legal Name (UPI) → LinkedIn → Email Pattern
-     → Breach Data → Username → Cross-Platform Accounts
-     → Profile Photo → Reverse Image → Older Accounts
+Phone number
+  → UPI lookup → bank-verified legal name
+  → LinkedIn → employer → email pattern
+  → Breach data → password reuse → username
+  → Sherlock → old accounts → profile photo
+  → Yandex → older accounts → deeper data
 ```
+
+Each step is passive. Each step uses only public data. That chain from a phone number to a full identity picture is what made me realize most people have no idea what their own exposure surface looks like.
 
 ---
 
-A few things worth mentioning
-It's India-grounded. UPI name lookups, Truecaller chains, JustDial and IndiaMart dorks, DPDP Act 2023 framing. Not a recycled Western playbook.
-The case study is real. Found exposed infrastructure on my college network through passive recon. Documented it, reported it responsibly, wrote it up as a full walkthrough. It's in module 14.
-Blue team is not an afterthought. Every module has a detection and hardening table. I work in MDR context so the defensive side matters as much as the offensive side to me.
+---
+
+## A few things worth mentioning
+
+**It's India-grounded.** UPI name lookups, Truecaller chains, JustDial and IndiaMart dorks, DPDP Act 2023 framing. Not a recycled Western playbook.
+
+**The case study is real.** Found exposed infrastructure on my college network through passive recon. Documented it, reported it responsibly, wrote it up as a full walkthrough. It's in module 14.
+
+**Blue team is not an afterthought.** Every module has a detection and hardening table. I work in MDR context so the defensive side matters as much as the offensive side to me.
+
+## Contributing
+
+If you find something wrong, outdated, or missing — open an issue or PR. This is a living document.
 
 
