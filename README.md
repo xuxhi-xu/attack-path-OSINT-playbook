@@ -4,6 +4,9 @@ I started writing this after finding exposed infrastructure on an institution's 
 
 No exploits. No tools. Just search operators and the right questions.
 
+Most public exposure isn't hidden behind exploits.
+It's sitting in PDFs, cached pages, forgotten subdomains, old resumes, or metadata nobody thought to remove.
+
 That made me think — if I could map this much from a browser tab, what does a real attacker see before they ever touch a target? This repo is basically the result of chasing that question.
 
 ## What this is
