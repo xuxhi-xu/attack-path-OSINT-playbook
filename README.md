@@ -29,8 +29,9 @@ The questions that actually matter during an investigation are:
 
 Those questions don't appear in most guides. They're in every section of this one.
 
-Start with 01 — [Analyst Framework](./modules/01-analyst-framework.md). 
-Every module that builds on it.
+Start with 01 — [Analyst Framework](./modules/01-analyst-framework.md).
+
+Everything after that builds on it.
 
 ## Structure
 
