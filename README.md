@@ -12,7 +12,7 @@ A field guide built around one idea: **OSINT is not a tool problem, it's a think
 
 Most guides hand you a list of commands and call it a methodology. This one works the other way — every section starts with the analyst question, builds the attack path, then references tools at the end as execution aids.
 
-Every offensive technique is paired with its defensive equivalent. Because if you understand how something is found, you understand how to stop it from being found.
+Every offensive section has a defensive mirror. Because if you understand how something is found, you understand how to stop it from being found.
 
 ## Why I built it this way
 
