@@ -61,17 +61,17 @@ modules/
 | # | Module | Role in Framework |
 |---|--------|-------------------|
 | 01 | [Analyst Framework](./modules/01-analyst-framework.md) | **Core — read first** |
-| 02 | [Google Dorking](./modules/02-google-dorking.md) | Entry Point / Data Exposure |
-| 03 | [Domain OSINT](./modules/03-domain-osint.md) | Infrastructure Expansion |
+| 02 | [Google Dorking](./modules/02-google-dorking.md) | Search Operators, Indexed Exposure & Data Leakage |
+| 03 | [Domain OSINT](./modules/03-domain-osint.md) | Subdomains, Infrastructure Mapping & DNS Recon |
 | 04 | [Individual OSINT](./modules/04-individual-osint.md) | Identity Graph Building |
-| 05 | [Document Intelligence](./modules/05-document-intelligence.md) | Node Enrichment |
-| 06 | [Metadata Intelligence](./modules/06-metadata-intelligence.md) | Deep Enrichment / Pivot Generation |
-| 07 | [Reverse Image & Geolocation](./modules/07-reverse-image-geolocation.md) | Visual Intelligence Layer |
-| 08 | [Social Media OSINT](./modules/08-social-media-osint.md) | Behavioral & Identity Layer |
-| 09 | [Telegram OSINT](./modules/09-telegram-osint.md) | Platform Expansion |
-| 10 | [WordPress OSINT](./modules/10-wordpress-osint.md) | Specialized Platform Recon |
+| 05 | [Document Intelligence](./modules/05-document-intelligence.md) | PDFs, Cached Files & Document Analysis |
+| 06 | [Metadata Intelligence](./modules/06-metadata-intelligence.md) | EXIF, Hidden Metadata & Pivot Generation |
+| 07 | [Reverse Image & Geolocation](./modules/07-reverse-image-geolocation.md) | Image Recon & Location Correlation |
+| 08 | [Social Media OSINT](./modules/08-social-media-osint.md) | Behavioral Profiling & Identity Tracking |
+| 09 | [Telegram OSINT](./modules/09-telegram-osint.md) | Username Enumeration & Channel Recon |
+| 10 | [WordPress OSINT](./modules/10-wordpress-osint.md) | Plugin Enumeration & CMS Recon |
 | 11 | [Government OSINT](./modules/11-government-osint.md) | Institutional Surface Mapping |
-| 12 | [Blue Team Detections](./modules/12-blue-team-detections.md) | Defensive Mirror |
+| 12 | [Blue Team Detections](./modules/12-blue-team-detections.md) | Exposure Detection & Defensive Hardening |
 | 13 | [Tool Reference](./modules/13-tool-reference.md) | Automated Verification |
 | 14 | [Case Study](./modules/14-case-study.md) | Full Chain Walkthrough |
 
