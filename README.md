@@ -33,12 +33,12 @@ Those questions don't appear in most guides. They're in every section of this on
 
 ## Who this is for
 
-- SOC analysts learning reconnaissance and exposure analysis
-- Threat hunters and MDR analysts mapping attacker visibility
-- Red teamers building passive recon workflows
-- Blue teamers validating public exposure surfaces
-- Security researchers studying attack-path correlation
-- Students trying to learn OSINT beyond just tool usage
+- People learning OSINT beyond just tool usage
+- SOC analysts and threat hunters
+- Red teamers doing passive reconnaissance
+- Blue teamers validating public exposure
+- Security researchers and investigators
+- Anyone curious how attackers build attack paths from public data
 
 Start with 01 — [Analyst Framework](./modules/01-analyst-framework.md).
 Everything after that builds on it.
