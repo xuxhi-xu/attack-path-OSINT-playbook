@@ -9,6 +9,8 @@ It's sitting in PDFs, cached pages, forgotten subdomains, old resumes, or metada
 
 That made me think — if I could map this much from a browser tab, what does a real attacker see before they ever touch a target? This repo is basically the result of chasing that question.
 
+This repository focuses on practical OSINT (Open Source Intelligence), passive reconnaissance, attack-path analysis, Google dorking, metadata analysis, identity correlation, infrastructure mapping, and defensive exposure assessment from both red-team and blue-team perspectives.
+
 ## What this is
 
 A field guide built around one idea: **OSINT is not a tool problem, it's a thinking problem.**
