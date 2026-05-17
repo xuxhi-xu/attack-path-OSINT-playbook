@@ -111,4 +111,6 @@ Each step is passive. Each step uses only public data. That was the moment I rea
 
 If you find something wrong, outdated, or missing — open an issue or PR. This is a living document.
 
+Maintained by Arunathish
+
 
